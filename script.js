@@ -2,11 +2,11 @@ function compute()
 {
     var princ = document.getElementById("principal").value;
 
-    if (princ ==""){
+    if (princ.value ==""){
         alert("Enter a positive number");
         princ.focus();
         return false;
-    }else if (princ <="0"){
+    }else if (princ.value <="0"){
         alert("Enter a positive number");
         princ.focus();
         return false;
