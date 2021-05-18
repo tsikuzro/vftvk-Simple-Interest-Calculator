@@ -3,10 +3,12 @@ function compute()
     var princ = document.getElementById("principal").value;
 
     if (princ ==""){
-        alert("Please Fill out amount");
+        alert("Enter a positive number");
+        principal.focus();
         return false;
     }else if (princ <="0"){
         alert("Enter a positive number");
+        principal.focus();
         return false;
     }else{
         var principal = document.getElementById("principal").value;
