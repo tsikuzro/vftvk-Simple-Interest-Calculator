@@ -4,11 +4,11 @@ function compute()
 
     if (princ ==""){
         alert("Enter a positive number");
-        principal.focus();
+        princ.focus();
         return false;
     }else if (princ <="0"){
         alert("Enter a positive number");
-        principal.focus();
+        princ.focus();
         return false;
     }else{
         var principal = document.getElementById("principal").value;
